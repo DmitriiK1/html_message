@@ -39,19 +39,31 @@
 			border-collapse: collapse;
 			mso-table-lspace: 0pt;
 			mso-table-rspace: 0pt;
+			line-height: 30px;
 		}
 
-		a{
+		a {
 			text-decoration: none;
 			color: #ededed;
 		}
 
-		button{
+		p {
+			margin: 0px;
+			line-height: 30px;
+		}
+
+		button {
 			background-color: #2F71E5;
 			border-radius: 30px;
 			border: 0;
 			outline: none !important;
 			padding: 10px;
+		}
+
+		.list {
+			margin-top: 30px;
+			margin-bottom: 30px;
+			box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 		}
 
 		.description {
@@ -63,22 +75,67 @@
 		.avatar {
 			border-radius: 50%;
 		}
-		.experience{
+
+		.experience {
 			border-top: 1px solid #000000;
 		}
-		.covering-letter{
+
+		.covering-letter {
 			border-top: 1px solid #000000;
 		}
-		.skills{
+
+		.skills {
 			border-top: 1px solid #000000;
 		}
-		.projects{
+
+		.projects {
 			border-top: 1px solid #000000;
 			border-collapse: separate;
 			padding-bottom: 20px;
 		}
-		.about-myself{
+
+		.about-myself {
 			border-top: 1px solid #000000;
+		}
+
+		@media (max-width: 770px) {
+			.main {
+				display: block;
+			}
+
+			h1 {
+				font-size: 28px;
+				margin-bottom: 0;
+			}
+
+			h2 {
+				font-size: 22px;
+				margin-bottom: 5px;
+			}
+
+			h4 {
+				margin-bottom: 5px;
+			}
+
+			p {
+				margin-top: 5px;
+			}
+
+			button {
+				margin-top: 10px;
+			}
+		}
+
+		@media (max-width: 600px) {
+			.main td {
+				margin-top: 15px;
+				display: block;
+			}
+
+			.description {
+				border-collapse: separate;
+				padding: 0px !important;
+			}
 		}
 	</style>
 	<base target="_blank">
@@ -90,218 +147,280 @@
 	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ededed">
 		<tr>
 			<td>
-				<table class="header" cellpadding="0" cellspacing="0" width="85%" align="center"
-					bgcolor="#ffffff">
-					<tr bgcolor="#ededed">
-						<td height="30" width="85%"></td>
-					</tr>
+				<table class="list" cellpadding="0" cellspacing="0" width="85%" align="center" bgcolor="#ffffff">
+
 					<tr>
-						<td class="header-td">
-							<img src="https://sun9-58.userapi.com/CFD8bcb5RvxJ9J-ffDtw46-Kxub34CUVBzRApg/GSV5RNY5acg.jpg" alt="logo" />
+						<td>
+							<table class="header" cellpadding="0" cellspacing="0" width="100%" align="center"
+								bgcolor="#ffffff">
+								<tr>
+									<td class="header-td">
+										<img src="https://sun9-58.userapi.com/CFD8bcb5RvxJ9J-ffDtw46-Kxub34CUVBzRApg/GSV5RNY5acg.jpg"
+											alt="logo" />
+									</td>
+								</tr>
+							</table>
+							<table cellpadding="0" cellspacing="0" width="85%" align="center" bgcolor="#ffffff">
+								<table cellpadding="0" cellspacing="0" width="85%" align="center" bgcolor="#ffffff">
+									<tr class="main">
+										<td align="center">
+											<img class="avatar"
+												src="https://sun9-65.userapi.com/yd5MudH4PfbT2ggVTUZW8XcqqOA4FV1i_7pYvg/7FKO2wfhZqM.jpg"
+												alt="avatar" />
+										</td>
+										<td>
+											<table class="information"
+												style="font-family: Arial, Helvetica, sans-serif, 'Roboto'"
+												cellpadding="0" cellspacing="0" width="90%" align="center"
+												bgcolor="#ffffff">
+												<tr>
+													<td align="left">
+														<h1 style="font-family: Arial, Helvetica, sans-serif, 'Roboto'">
+															Junior Web-developer</h1>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<h2>Кошевой Дмитрий Сергеевич</h2>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p>Год рождения: 1988</p>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p>Проживаю в г. Санкт-Петербург</p>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p>Телефон:8-911-704-32-51</p>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<p>e-mail: dmitrykoshevoi@yandex.ru</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+
+										<table class="description"
+											style="font-family: Arial, Helvetica, sans-serif, 'Roboto'" cellpadding="0"
+											cellspacing="0" width="90%" align="center" bgcolor="#ffffff">
+											<tr>
+												<td>
+													<table class="covering-letter"
+														style="font-family: Arial, Helvetica, sans-serif, 'Roboto'"
+														cellpadding="0" cellspacing="0" width="90%" align="center"
+														bgcolor="#ffffff">
+														<tr>
+															<td>
+																<h4>Сопроводительное письмо:</h4>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>Добрый день!
+																	Меня зовут Кошевой Дмитрий, мне 32 года. В прошлом
+																	году
+																	принял решение сменить свою профессию, так я пришел
+																	в
+																	Яндекс Практикум. На курсах Яндекс Практикума изучил
+																	JavaScript, HTML и CSS, в работе использую Figma и
+																	git.
+																	<br />
+																	Делал и одностраничники и адаптивный лендинг.
+																	Я начинающий разработчик, но хочу получить отличный
+																	опыт, чтобы вырасти как профессионал своего дела.
+																	Поэтому в данный момент нахожусь в поисках вакансии
+																	начинающего разработчика.
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table class="experience"
+														style="font-family: Arial, Helvetica, sans-serif, 'Roboto'"
+														cellpadding="0" cellspacing="0" width="90%" align="center"
+														bgcolor="#ffffff">
+														<tr>
+															<td>
+																<h4>Опыт работы</h4>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>2019г. Яндекс Практикум - Web-разработчик(студент).
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table class="skills"
+														style="font-family: Arial, Helvetica, sans-serif, 'Roboto'"
+														cellpadding="0" cellspacing="0" width="90%" align="center"
+														bgcolor="#ffffff">
+														<tr>
+															<td>
+																<h4>Навыки</h4>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>- Семантическая и адаптивная верстка( flex, grid ),
+																	методология БЭМ, верстка форм
+																	и их валидация;</p>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>- JavaScript: ES5/ES6, работа с API;</p>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>- Система контроля версий Git, работа с командной
+																	строкой(git bash), сборка
+																	проекта Webpack, менеджер пакетов npm;</p>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p> - Бэкенд (серверная разработка на Node.JS,
+																	аутентификация и авторизация, работа
+																	с MongoDB, Postman);</p>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>На очереди React.JS</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table class="projects"
+														style="font-family: Arial, Helvetica, sans-serif, 'Roboto'"
+														cellpadding="0" cellspacing="0" width="90%" align="center"
+														bgcolor="#ffffff">
+														<tr>
+															<td>
+																<h4>Проекты</h4>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>В данной работе реализовано, при использовании js,
+																	открытие форм для
+																	добавления<br /> карточек и формы изменения данных
+																	пользователя. JS код написан
+																	с применением ES5/ES6. Настроен Webpack</p>
+																<button><a
+																		href="https://github.com/DmitriiK1/praktikum">Ссылка
+																		на github </a></button>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>Учебный проект о путешествиях по стране. Блок с
+																	фотографиями сделан при помощи
+																	Grid, <br /> стили прописаны на SCSS, на странице
+																	установлены видео, все ссылки
+																	рабочие и при клике открываются в новой вкладке.</p>
+																<button><a
+																		href="https://github.com/DmitriiK1/russia">Ссылка
+																		на github </a></button>
+																<button><a
+																		href="https://dmitriik1.github.io/russia/">Ссылка
+																		на готовый проект, размещенный
+																		на github pages </a></button>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>Лэндинг сделанный с применением библиотеки Bootstrap.
+																</p>
+																<button><a
+																		href="https://github.com/DmitriiK1/rezkin_bootstrap">Ссылка
+																		на github </a><br /></button>
+																<button><a href="http://rezkiny.ru">Ссылка на готовый
+																		проект, размещенный
+																		через хостинг reg.ru </a></button>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<table class="about-myself"
+														style="font-family: Arial, Helvetica, sans-serif, 'Roboto'"
+														cellpadding="0" cellspacing="0" width="90%" align="center"
+														bgcolor="#ffffff">
+														<tr>
+															<td>
+																<h4>О себе:</h4>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p>Мне 32года. Имею опыт в автотранспортной сфере, а так
+																	же
+																	опыт работы с
+																	логистической программой “Antor Logistic
+																	Master”.<br />
+																	В 2017году переехал
+																	на постоянное место жительства в город
+																	Санкт-Петербург.
+																	За это время работал
+																	в сфере страхования и оценки недвижимости.<br /> В
+																	прошлом году принял
+																	решение развиваться в новой для меня сфере, так я
+																	пришел
+																	на курсы Яндекс
+																	Практикума по специальности Web-разработчик. Данное
+																	направление меня
+																	заинтересовало тем что нужно постоянно изучать
+																	что-то
+																	новое и постоянно
+																	находиться в профессиональном движении. Хочу
+																	развиваться
+																	в данной сфере и
+																	вырасти как профессионал своего дела.<br />
+																	Интересуюсь торговлей на бирже. Изучал основы
+																	технического анализа и
+																	торговал на рынках. В будущем планирую объединить
+																	знания
+																	программирования и
+																	биржевой торговли для создания помощников
+																	отслеживающих
+																	разные инструменты
+																	торговли.
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+
+								</table>
 						</td>
 					</tr>
 				</table>
-				<table class="main table-850" cellpadding="0" cellspacing="0" width="85%" align="center"
-					bgcolor="#ffffff">
-					<tr>
-						<td align="center">
-							<img class="avatar" src="https://sun9-65.userapi.com/yd5MudH4PfbT2ggVTUZW8XcqqOA4FV1i_7pYvg/7FKO2wfhZqM.jpg" alt="avatar" />
-						</td>
-						<td>
-							<table class="information" style="font-family: Arial, Helvetica, sans-serif, 'Roboto'" cellpadding="0" cellspacing="0" width="85%" align="center"
-								bgcolor="#ffffff">
-								<tr>
-									<td align="left">
-										<h1 style="font-family: Arial, Helvetica, sans-serif, 'Roboto'">Junior Web-developer</h1>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<h2>Кошевой Дмитрий Сергеевич</h2>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<p>Год рождения: 1988</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<p>Проживаю в г. Санкт-Петербург</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<p>Телефон:8-911-704-32-51</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<p>e-mail: dmitrykoshevoi@yandex.ru</p>
-									</td>
-								</tr>
-							</table>
-						</td>
-						<table class="description" style="font-family: Arial, Helvetica, sans-serif, 'Roboto'" cellpadding="0" cellspacing="0" width="85%" align="center"
-							bgcolor="#ffffff">
-							<tr>
-								<td>
-									<table class="covering-letter" style="font-family: Arial, Helvetica, sans-serif, 'Roboto'" cellpadding="0" cellspacing="0" width="85%" align="center"
-								bgcolor="#ffffff">
-								<tr>
-									<td>
-										<h4>Сопроводительное письмо:</h4>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<p>Добрый день!
-											Меня зовут Кошевой Дмитрий, мне 32 года. В прошлом году принял решение сменить свою профессию, так я пришел в Яндекс Практикум. На курсах Яндекс Практикума изучил JavaScript, HTML и CSS, в работе использую Figma и git. 
-											Делал и одностраничники и адаптивный лендинг.  
-											Я начинающий разработчик, но хочу получить отличный опыт, чтобы вырасти как профессионал своего дела. Поэтому в данный момент нахожусь в поисках стажировки. 
-											Связаться со мной можно по номеру: +7 911-704-32-51 или по почте
-											dmitrykoshevoi@yandex.ru. 
-											
-											
-										</p>
-									</td>
-								</tr>
-							</table>
-								</td>
-							</tr>
-							<tr>
-								<td>
-							<table class="experience" style="font-family: Arial, Helvetica, sans-serif, 'Roboto'" cellpadding="0" cellspacing="0" width="85%" align="center"
-								bgcolor="#ffffff">
-							<tr>
-								<td>
-									<h4>Опыт работы</h4>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>2019г. Яндекс Практикум - Web-разработчик(студент).</p>
-								</td>
-							</tr>
-						</table>
-					</td>
-					</tr>
-							<tr>
-								<td>
-							<table class="skills" style="font-family: Arial, Helvetica, sans-serif, 'Roboto'" cellpadding="0" cellspacing="0" width="85%" align="center"
-								bgcolor="#ffffff">
-							<tr>
-								<td>
-									<h4>Навыки</h4>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>- Семантическая и адаптивная верстка( flex, grid ), методология БЭМ, верстка форм
-										и их валидация;</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>- JavaScript: ES5/ES6, работа с API;</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>- Система контроля версий Git, работа с командной строкой(git bash), сборка
-										проекта Webpack, менеджер пакетов npm;</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p> - Бэкенд (серверная разработка на Node.JS, аутентификация и авторизация, работа
-										с MongoDB, Postman);</p>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>На очереди React.JS</p>
-								</td>
-							</tr>
-						</table>
-					</td>
-					</tr>
-							<tr>
-								<td>
-							<table class="projects" style="font-family: Arial, Helvetica, sans-serif, 'Roboto'" cellpadding="0" cellspacing="0" width="85%" align="center"
-								bgcolor="#ffffff">
-							<tr>
-								<td>
-									<h4>Проекты</h4>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>В данной работе реализовано, при использовании js, открытие форм для
-										добавления<br /> карточек и формы изменения данных пользователя. JS код написан
-										с применением ES5/ES6. Настроен Webpack</p>
-								<button><a href="https://github.com/DmitriiK1/praktikum">Ссылка на github </a></button>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>Учебный проект о путешествиях по стране. Блок с фотографиями сделан при помощи
-										Grid, <br /> стили прописаны на SCSS, на странице установлены видео, все ссылки
-										рабочие и при клике открываются в новой вкладке.</p>
-									<button><a href="https://github.com/DmitriiK1/russia">Ссылка на github </a></button>
-									<button><a href="https://dmitriik1.github.io/russia/">Ссылка на готовый проект, размещенный
-										на github pages </a></button>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<p>Лэндинг сделанный с применением библиотеки Bootstrap.</p>
-									<button><a href="https://github.com/DmitriiK1/rezkin_bootstrap">Ссылка на github </a><br /></button>
-									<button><a href="http://rezkiny.ru">Ссылка на готовый проект, размещенный
-										через хостинг reg.ru </a></button>
-								</td>
-							</tr>
-						</table>
-					</td>
-					</tr>
-							<tr>
-								<td>
-							<table  class="about-myself" style="font-family: Arial, Helvetica, sans-serif, 'Roboto'" cellpadding="0" cellspacing="0" width="85%" align="center"
-								bgcolor="#ffffff">
-								<tr>
-									<td>
-										<h4>О себе:</h4>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<p>Мне 32года. Имею опыт в автотранспортной сфере, а так же опыт работы с
-											логистической программой “Antor Logistic Master”.<br /> В 2017году переехал
-											на постоянное место жительства в город Санкт-Петербург. За это время работал
-											в сфере страхования и оценки недвижимости.<br /> В прошлом году принял
-											решение развиваться в новой для меня сфере, так я пришел на курсы Яндекс
-											Практикума по специальности Web-разработчик. Данное направление меня
-											заинтересовало тем что нужно постоянно изучать что-то новое и постоянно
-											находиться в профессиональном движении. Хочу развиваться в данной сфере и
-											вырасти как профессионал своего дела.<br />
-											Интересуюсь торговлей на бирже. Изучал основы технического анализа и
-											торговал на рынках. В будущем планирую объединить знания программирования и
-											биржевой торговли для создания помощников отслеживающих разные инструменты
-											торговли.
-										</p>
-									</td>
-								</tr>
-							</table>
-						</td>
-						</tr>
-						</table>
-					<tr bgcolor="#ededed">
-						<td height="30" width="85%"></td>
-					</tr>
+			</td>
 		</tr>
-	</table>
-	</td>
-	</tr>
 	</table>
 </body>
 
